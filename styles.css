@@ -1,0 +1,82 @@
+/* General Page Styling */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f4fc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #264653;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #50596c;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+a {
+    color: #2a9d8f;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+a:hover {
+    color: #264653;
+    text-decoration: underline;
+}
+
+li {
+    font-size: 1rem;
+    color: #264653;
+    margin-bottom: 12px;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Scatter Plot and Box Plot Container Styling */
+#scatter, #boxplot {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 80%;
+    max-width: 800px;
+    padding: 15px;
+}
+
+/* SVG Styling */
+svg {
+    border: 1px solid #e1e8ed;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Scatter Plot Circle Styling */
+circle {
+    stroke: #264653;
+    stroke-width: 1.5px;
+}
+
+/* Legend Styling */
+.legend {
+    font-size: 0.9rem;
+    fill: #264653;
+}
+
+.legend rect {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    border-radius: 3px;
+}
